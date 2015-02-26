@@ -43,6 +43,14 @@ body {
     padding: 10px;
 }
 
+header {
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -52,10 +60,16 @@ nav ul {
 nav ul li {
     display: inline;
     padding: 5px;
+    font-size: 1em;
 }
 
 h1 {
     color: #601c05;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.1em;
 }
 
 h1, h2, li a {
@@ -68,6 +82,10 @@ p, button {
 
 h2, p {
     color: #4c3f37;
+}
+
+p {
+    margin-top: -10px;
 }
 
 a:link {
@@ -89,8 +107,23 @@ a:active {
     text-decoration: none;
 }
 
+#logo img {
+    width: 100%;
+}
+
+#photos img {
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+
+#colors {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
 #button {
-    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
+    text-align: center;
 }
 
 button {
@@ -109,10 +142,55 @@ button:hover {
     height: 67px;
 }
 
-#logo img {
-    width: 100%;
+/*Break Point 555px */
+
+@media (min-width: 555px) {
+    #logo {
+        width: 50%;
+        float: left;
+    }
+    
+    nav {
+        float: right;
+    }
+    
+    section {
+        clear: both;
+    }
 }
 
-#photos img {
-    width: 100%;
+/*Break Point 750px */
+
+@media (min-width: 750px) {
+    #container, header {
+        overflow: hidden;
+        max-width: 975px;
+        padding-right: 20px;
+    }
+    
+    nav ul li {
+        font-size: 1.4em;
+    }
+    
+    aside {
+        float: left;
+        width: 35%;
+        margin-top: 10px;
+    }
+    
+    section {
+        float: right;
+        width: 63%;
+        margin-top: 10px;
+    }
+    
+    #interior {
+        width: 49%;
+        float: left;
+    }
+    
+    #painting {
+        width: 49%;
+        float: right;
+    }
 }
