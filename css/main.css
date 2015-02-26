@@ -118,7 +118,9 @@ a:active {
 
 #colors {
     text-align: center;
-    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    max-width: 342px;
 }
 
 #button {
@@ -156,6 +158,10 @@ button:hover {
     
     section {
         clear: both;
+    }
+    
+    #colors {
+        max-width: 555px;
     }
 }
 
