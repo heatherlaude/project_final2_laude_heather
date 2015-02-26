@@ -52,10 +52,16 @@ nav ul {
 nav ul li {
     display: inline;
     padding: 5px;
+    font-size: 1em;
 }
 
 h1 {
     color: #601c05;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.25em;
 }
 
 h1, h2, li a {
@@ -68,6 +74,10 @@ p, button {
 
 h2, p {
     color: #4c3f37;
+}
+
+p {
+    margin-top: -10px;
 }
 
 a:link {
@@ -89,8 +99,23 @@ a:active {
     text-decoration: none;
 }
 
+#logo img {
+    width: 100%;
+}
+
+#photos img {
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+
+#colors {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
 #button {
-    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
+    text-align: center;
 }
 
 button {
@@ -107,12 +132,4 @@ button:hover {
     background-image:url(../img/button_hover.png);
     width: 185px;
     height: 67px;
-}
-
-#logo img {
-    width: 100%;
-}
-
-#photos img {
-    width: 100%;
 }
