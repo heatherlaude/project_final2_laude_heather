@@ -1,0 +1,118 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'judson';
+    src: url('fonts/judson/judson_regular.eot');
+    src:url('fonts/judson/judson_regular.ttf') format('truetype'), url('fonts/judson/judson_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'judson_bold';
+    src: url('fonts/judson/judson_bold.eot');
+    src:url('fonts/judson/judson_bold.ttf') format('truetype'), url('fonts/judson/judson_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'judson_italic';
+    src: url('fonts/judson/judson_italic.eot');
+    src:url('fonts/judson/judson_italic.ttf') format('truetype'), url('fonts/judson/judson_italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'celtichand';
+    src: url('fonts/celtichand/celtichand.eot');
+    src:url('fonts/celtichand/celtichand.ttf') format('truetype'), url('fonts/celtichand/celtichand.woff') format('woff');
+}
+
+/* End Fonts */
+
+body {
+    background-image: url("../img/brownbricks.jpg");
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+    background-color: #eee8de;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+}
+
+h1 {
+    color: #601c05;
+}
+
+h1, h2, li a {
+    font-family: "celtichand", cambria, garamond, georgia, serif;
+}
+
+p, button {
+    font-family: "judson", cambria, garamond, georgia, serif;
+}
+
+h2, p {
+    color: #4c3f37;
+}
+
+a:link {
+    color: #f19b50;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #C17B40;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f19b50;
+}
+
+a:active {
+    color: #601c05;
+    text-decoration: none;
+}
+
+#button {
+    margin-bottom: 10px;
+}
+
+button {
+    background-image: url(../img/button.png);
+    width: 185px;
+    height: 67px;
+    color: #EEE8DE;
+    font-family: "celtichand", cambria, garamond, georgia, serif;
+    font-size: 1.25em;
+    text-shadow: 2px 2px #4c3f37;
+}
+
+button:hover {
+    background-image:url(../img/button_hover.png);
+    width: 185px;
+    height: 67px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#photos img {
+    width: 100%;
+}
