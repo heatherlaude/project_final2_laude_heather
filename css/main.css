@@ -151,3 +151,39 @@ button:hover {
         margin-top: 85px;
     }
 }
+
+/*Break Point 750px */
+
+@media (min-width: 750px) {
+    #container {
+        overflow: hidden;
+        max-width: 975px;
+        padding-right: 20px;
+    }
+    
+    nav ul li {
+        font-size: 1.4em;
+    }
+    
+    aside {
+        float: left;
+        width: 35%;
+        margin-top: 30px;
+    }
+    
+    section {
+        float: right;
+        width: 63%;
+        margin-top: 30px;
+    }
+    
+    #interior {
+        width: 49%;
+        float: left;
+    }
+    
+    #painting {
+        width: 49%;
+        float: right;
+    }
+}
