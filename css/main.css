@@ -8,26 +8,26 @@
 
 @font-face {
     font-family: 'judson';
-    src: url('fonts/judson/judson_regular.eot');
-    src:url('fonts/judson/judson_regular.ttf') format('truetype'), url('fonts/judson/judson_regular.woff') format('woff');
+    src: url('../fonts/judson/judson_regular.eot');
+    src:url('../fonts/judson/judson_regular.ttf') format('truetype'), url('../fonts/judson/judson_regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'judson_bold';
-    src: url('fonts/judson/judson_bold.eot');
-    src:url('fonts/judson/judson_bold.ttf') format('truetype'), url('fonts/judson/judson_bold.woff') format('woff');
+    src: url('../fonts/judson/judson_bold.eot');
+    src:url('../fonts/judson/judson_bold.ttf') format('truetype'), url('../fonts/judson/judson_bold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'judson_italic';
-    src: url('fonts/judson/judson_italic.eot');
-    src:url('fonts/judson/judson_italic.ttf') format('truetype'), url('fonts/judson/judson_italic.woff') format('woff');
+    src: url('../fonts/judson/judson_italic.eot');
+    src:url('../fonts/judson/judson_italic.ttf') format('truetype'), url('../fonts/judson/judson_italic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'celtichand';
-    src: url('fonts/celtichand/celtichand.eot');
-    src:url('fonts/celtichand/celtichand.ttf') format('truetype'), url('fonts/celtichand/celtichand.woff') format('woff');
+    src: url('../fonts/celtichand/celtichand.eot');
+    src:url('../fonts/celtichand/celtichand.ttf') format('truetype'), url('../fonts/celtichand/celtichand.woff') format('woff');
 }
 
 /* End Fonts */
